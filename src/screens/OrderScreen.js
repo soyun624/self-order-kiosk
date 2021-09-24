@@ -66,7 +66,7 @@ function OrderScreen(props) {
             listProducts(dispatch, categoryName);
         }
         
-    }, [categories, categoryName]);
+    }, [dispatch, categories, categoryName]);
     
    
     const categoryClickHandler = (name) => {
